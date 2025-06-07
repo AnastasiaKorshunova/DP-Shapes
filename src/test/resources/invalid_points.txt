@@ -1,0 +1,18 @@
+
+# Pyramid 5 - Invalid: only 2 base points
+5.0,5.0,5.0
+5.0,5.0,0.0
+6.0,5.0,0.0
+
+# Pyramid 6 - Invalid: malformed line
+abc,1.0,2.0
+1.0,2.0,0.0
+2.0,3.0,0.0
+3.0,3.0,0.0
+
+# Pyramid 9 - Invalid: too few coordinates
+8.0,8.0,6.0
+8.0,8.0
+9.0,8.0,0.0
+9.0,9.0,0.0
+

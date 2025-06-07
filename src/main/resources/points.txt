@@ -1,0 +1,73 @@
+# Pyramid 1 - Valid triangle base
+0.0,0.0,5.0
+0.0,0.0,0.0
+1.0,0.0,0.0
+0.5,0.866,0.0
+
+# Pyramid 2 - Valid rectangle base
+1.0,1.0,4.0
+1.0,1.0,0.0
+3.0,1.0,0.0
+3.0,2.0,0.0
+
+# Pyramid 3 - Valid irregular quadrilateral
+2.0,2.0,3.0
+2.0,2.0,0.0
+2.5,2.2,0.0
+2.3,2.8,0.0
+
+# Pyramid 4 - Valid pentagon base
+4.0,4.0,6.0
+4.0,4.0,0.0
+4.5,4.1,0.0
+4.7,4.4,0.0
+4.3,4.6,0.0
+3.9,4.3,0.0
+
+# Pyramid 5 - Invalid: only 2 base points
+5.0,5.0,5.0
+5.0,5.0,0.0
+6.0,5.0,0.0
+
+# Pyramid 6 - Invalid: malformed line
+abc,1.0,2.0
+1.0,2.0,0.0
+2.0,3.0,0.0
+3.0,3.0,0.0
+
+# Pyramid 7 - Valid triangle base
+6.0,6.0,3.0
+6.0,6.0,0.0
+7.0,6.0,0.0
+6.5,6.866,0.0
+
+# Pyramid 8 - Valid square base
+7.0,7.0,5.0
+7.0,7.0,0.0
+8.0,7.0,0.0
+8.0,8.0,0.0
+7.0,8.0,0.0
+
+# Pyramid 9 - Invalid: too few coordinates
+8.0,8.0,6.0
+8.0,8.0
+9.0,8.0,0.0
+9.0,9.0,0.0
+
+# Pyramid 10 - Valid triangle base
+9.0,9.0,7.0
+9.0,9.0,0.0
+10.0,9.0,0.0
+9.5,9.866,0.0
+
+# Pyramid 11 - Duplicate of pyramid 1
+0.0,0.0,5.0
+0.0,0.0,0.0
+1.0,0.0,0.0
+0.5,0.866,0.0
+
+# Extra invalid lines
+abc,1.0,2.0
+1.0,2.0
+1.0,2.0,3.0,4.0
+1.0 2.0 3.0

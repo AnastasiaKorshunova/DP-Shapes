@@ -1,0 +1,587 @@
+2025-06-07 16:44:42 INFO  FileReaderUtility:25 - Successfully read 9 lines from src/main/resources/points.txt
+2025-06-07 16:44:42 WARN  PointFormatValidator:13 - Empty or null input string for point validation
+2025-06-07 16:44:42 ERROR PyramidFacade:67 - File parsing error: Invalid format on line 5: ""
+com.esdc.shape.exception.FileParsingException: Invalid format on line 5: ""
+	at com.esdc.shape.parser.impl.PointParserImpl.parsePoints(PointParserImpl.java:24) ~[classes/:?]
+	at com.esdc.shape.facade.PyramidFacade.readPointsFromFile(PyramidFacade.java:46) ~[classes/:?]
+	at com.esdc.shape.facade.PyramidFacade.loadPyramidsFromFile(PyramidFacade.java:51) [classes/:?]
+	at com.esdc.shape.Main.main(Main.java:15) [classes/:?]
+2025-06-07 16:47:02 INFO  FileReaderUtility:25 - Successfully read 9 lines from src/main/resources/points.txt
+2025-06-07 16:47:02 WARN  PointFormatValidator:13 - Empty or null input string for point validation
+2025-06-07 16:47:02 WARN  PointParserImpl:23 - Skipping invalid format on line 5: 
+2025-06-07 16:47:02 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 16:47:02 WARN  PointParserImpl:23 - Skipping invalid format on line 6: abc,1.0,2.0
+2025-06-07 16:47:02 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1.0,2.0
+2025-06-07 16:47:02 WARN  PointParserImpl:23 - Skipping invalid format on line 7: 1.0,2.0
+2025-06-07 16:47:02 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1.0,2.0,3.0,4.0
+2025-06-07 16:47:02 WARN  PointParserImpl:23 - Skipping invalid format on line 8: 1.0,2.0,3.0,4.0
+2025-06-07 16:47:02 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: 1.0 2.0 3.0
+2025-06-07 16:47:02 WARN  PointParserImpl:23 - Skipping invalid format on line 9: 1.0 2.0 3.0
+2025-06-07 16:47:02 INFO  PointParserImpl:43 - Parsed 4 valid points out of 9 lines
+2025-06-07 16:47:02 INFO  PyramidFactoryImpl:22 - Pyramid created with ID: 1
+2025-06-07 16:47:02 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:47:02 INFO  PyramidValidator:32 - Pyramid 1 is valid.
+2025-06-07 16:47:02 INFO  ValidPyramidState:13 - Pyramid 1 is valid. Proceeding to update warehouse.
+2025-06-07 16:47:02 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 1
+2025-06-07 16:47:02 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=1, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:47:02 INFO  PyramidFacade:36 - Pyramid ID 1 added to repository
+2025-06-07 16:47:02 INFO  PyramidFacade:64 - Successfully loaded pyramids from file: src/main/resources/points.txt
+2025-06-07 16:47:02 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 16:51:05 INFO  FileReaderUtility:25 - Successfully read 9 lines from src/main/resources/points.txt
+2025-06-07 16:51:05 WARN  PointParserImpl:24 - Skipping empty or null line at 5
+2025-06-07 16:51:05 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 16:51:05 WARN  PointParserImpl:30 - Skipping invalid format on line 6: abc,1.0,2.0
+2025-06-07 16:51:05 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1.0,2.0
+2025-06-07 16:51:05 WARN  PointParserImpl:30 - Skipping invalid format on line 7: 1.0,2.0
+2025-06-07 16:51:05 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1.0,2.0,3.0,4.0
+2025-06-07 16:51:05 WARN  PointParserImpl:30 - Skipping invalid format on line 8: 1.0,2.0,3.0,4.0
+2025-06-07 16:51:05 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: 1.0 2.0 3.0
+2025-06-07 16:51:05 WARN  PointParserImpl:30 - Skipping invalid format on line 9: 1.0 2.0 3.0
+2025-06-07 16:51:05 INFO  PointParserImpl:53 - Parsed 4 valid points out of 9 lines (5 skipped)
+2025-06-07 16:51:05 INFO  PyramidFactoryImpl:22 - Pyramid created with ID: 1
+2025-06-07 16:51:05 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:51:05 INFO  PyramidValidator:32 - Pyramid 1 is valid.
+2025-06-07 16:51:05 INFO  ValidPyramidState:13 - Pyramid 1 is valid. Proceeding to update warehouse.
+2025-06-07 16:51:05 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 1
+2025-06-07 16:51:05 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=1, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:51:05 INFO  PyramidFacade:36 - Pyramid ID 1 added to repository
+2025-06-07 16:51:05 INFO  PyramidFacade:64 - Successfully loaded pyramids from file: src/main/resources/points.txt
+2025-06-07 16:51:05 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 16:56:37 INFO  FileReaderUtility:25 - Successfully read 73 lines from src/main/resources/points.txt
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 1 - Valid triangle base
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 1: # Pyramid 1 - Valid triangle base
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 6
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 2 - Valid rectangle base
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 7: # Pyramid 2 - Valid rectangle base
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 12
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 13: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 18
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 4 - Valid pentagon base
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 19: # Pyramid 4 - Valid pentagon base
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 26
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 27: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 31
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 6 - Invalid: malformed line
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 32: # Pyramid 6 - Invalid: malformed line
+2025-06-07 16:56:37 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 33: abc,1.0,2.0
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 37
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 7 - Valid triangle base
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 38: # Pyramid 7 - Valid triangle base
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 43
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 8 - Valid square base
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 44: # Pyramid 8 - Valid square base
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 50
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 51: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 8.0,8.0
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 53: 8.0,8.0
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 56
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 10 - Valid triangle base
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 57: # Pyramid 10 - Valid triangle base
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 62
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 63: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 16:56:37 WARN  PointParserImpl:24 - Skipping empty or null line at 68
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Extra invalid lines
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 69: # Extra invalid lines
+2025-06-07 16:56:37 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 70: abc,1.0,2.0
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1.0,2.0
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 71: 1.0,2.0
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1.0,2.0,3.0,4.0
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 72: 1.0,2.0,3.0,4.0
+2025-06-07 16:56:37 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: 1.0 2.0 3.0
+2025-06-07 16:56:37 WARN  PointParserImpl:30 - Skipping invalid format on line 73: 1.0 2.0 3.0
+2025-06-07 16:56:37 INFO  PointParserImpl:53 - Parsed 44 valid points out of 73 lines (29 skipped)
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 1
+2025-06-07 16:56:37 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:56:37 INFO  PyramidValidator:32 - Pyramid 1 is valid.
+2025-06-07 16:56:37 INFO  ValidPyramidState:13 - Pyramid 1 is valid. Proceeding to update warehouse.
+2025-06-07 16:56:37 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 1
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=1, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:56:37 INFO  PyramidFacade:36 - Pyramid ID 1 added to repository
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 2
+2025-06-07 16:56:37 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:56:37 INFO  PyramidValidator:32 - Pyramid 2 is valid.
+2025-06-07 16:56:37 INFO  ValidPyramidState:13 - Pyramid 2 is valid. Proceeding to update warehouse.
+2025-06-07 16:56:37 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 2
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=2, apex=Point(x=1,00, y=1,00, z=4,00), base=[Point(x=1,00, y=1,00, z=0,00), Point(x=3,00, y=1,00, z=0,00), Point(x=3,00, y=2,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:56:37 INFO  PyramidFacade:36 - Pyramid ID 2 added to repository
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 3
+2025-06-07 16:56:37 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:56:37 INFO  PyramidValidator:32 - Pyramid 3 is valid.
+2025-06-07 16:56:37 INFO  ValidPyramidState:13 - Pyramid 3 is valid. Proceeding to update warehouse.
+2025-06-07 16:56:37 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 3
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=3, apex=Point(x=2,00, y=2,00, z=3,00), base=[Point(x=2,00, y=2,00, z=0,00), Point(x=2,50, y=2,20, z=0,00), Point(x=2,30, y=2,80, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:56:37 INFO  PyramidFacade:36 - Pyramid ID 3 added to repository
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 4
+2025-06-07 16:56:37 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:56:37 INFO  PyramidValidator:32 - Pyramid 4 is valid.
+2025-06-07 16:56:37 INFO  ValidPyramidState:13 - Pyramid 4 is valid. Proceeding to update warehouse.
+2025-06-07 16:56:37 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 4
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=4, apex=Point(x=4,00, y=4,00, z=6,00), base=[Point(x=4,00, y=4,00, z=0,00), Point(x=4,50, y=4,10, z=0,00), Point(x=4,70, y=4,40, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:56:37 INFO  PyramidFacade:36 - Pyramid ID 4 added to repository
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 5
+2025-06-07 16:56:37 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:56:37 INFO  PyramidValidator:32 - Pyramid 5 is valid.
+2025-06-07 16:56:37 INFO  ValidPyramidState:13 - Pyramid 5 is valid. Proceeding to update warehouse.
+2025-06-07 16:56:37 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 5
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=5, apex=Point(x=4,30, y=4,60, z=0,00), base=[Point(x=3,90, y=4,30, z=0,00), Point(x=5,00, y=5,00, z=5,00), Point(x=5,00, y=5,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:56:37 INFO  PyramidFacade:36 - Pyramid ID 5 added to repository
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 6
+2025-06-07 16:56:37 WARN  PyramidValidator:26 - Apex is coplanar with the base.
+2025-06-07 16:56:37 WARN  InvalidPyramidState:12 - Pyramid 6 is invalid. No further processing.
+2025-06-07 16:56:37 WARN  PyramidFacade:38 - Pyramid ID 6 is invalid and was not added to repository
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 7
+2025-06-07 16:56:37 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:56:37 INFO  PyramidValidator:32 - Pyramid 7 is valid.
+2025-06-07 16:56:37 INFO  ValidPyramidState:13 - Pyramid 7 is valid. Proceeding to update warehouse.
+2025-06-07 16:56:37 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 7
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=7, apex=Point(x=6,00, y=6,00, z=3,00), base=[Point(x=6,00, y=6,00, z=0,00), Point(x=7,00, y=6,00, z=0,00), Point(x=6,50, y=6,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:56:37 INFO  PyramidFacade:36 - Pyramid ID 7 added to repository
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 8
+2025-06-07 16:56:37 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:56:37 INFO  PyramidValidator:32 - Pyramid 8 is valid.
+2025-06-07 16:56:37 INFO  ValidPyramidState:13 - Pyramid 8 is valid. Proceeding to update warehouse.
+2025-06-07 16:56:37 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 8
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=8, apex=Point(x=7,00, y=7,00, z=5,00), base=[Point(x=7,00, y=7,00, z=0,00), Point(x=8,00, y=7,00, z=0,00), Point(x=8,00, y=8,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:56:37 INFO  PyramidFacade:36 - Pyramid ID 8 added to repository
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 9
+2025-06-07 16:56:37 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:56:37 INFO  PyramidValidator:32 - Pyramid 9 is valid.
+2025-06-07 16:56:37 INFO  ValidPyramidState:13 - Pyramid 9 is valid. Proceeding to update warehouse.
+2025-06-07 16:56:37 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 9
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=9, apex=Point(x=7,00, y=8,00, z=0,00), base=[Point(x=8,00, y=8,00, z=6,00), Point(x=9,00, y=8,00, z=0,00), Point(x=9,00, y=9,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:56:37 INFO  PyramidFacade:36 - Pyramid ID 9 added to repository
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 10
+2025-06-07 16:56:37 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:56:37 INFO  PyramidValidator:32 - Pyramid 10 is valid.
+2025-06-07 16:56:37 INFO  ValidPyramidState:13 - Pyramid 10 is valid. Proceeding to update warehouse.
+2025-06-07 16:56:37 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 10
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=10, apex=Point(x=9,00, y=9,00, z=7,00), base=[Point(x=9,00, y=9,00, z=0,00), Point(x=10,00, y=9,00, z=0,00), Point(x=9,50, y=9,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:56:37 INFO  PyramidFacade:36 - Pyramid ID 10 added to repository
+2025-06-07 16:56:37 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 11
+2025-06-07 16:56:37 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:56:37 INFO  PyramidValidator:32 - Pyramid 11 is valid.
+2025-06-07 16:56:37 INFO  ValidPyramidState:13 - Pyramid 11 is valid. Proceeding to update warehouse.
+2025-06-07 16:56:37 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 11
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=11, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:56:37 INFO  PyramidFacade:36 - Pyramid ID 11 added to repository
+2025-06-07 16:56:37 INFO  PyramidFacade:64 - Successfully loaded pyramids from file: src/main/resources/points.txt
+2025-06-07 16:56:37 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 10
+2025-06-07 16:59:22 INFO  FileReaderUtility:25 - Successfully read 73 lines from src/main/resources/points.txt
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 1 - Valid triangle base
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 1: # Pyramid 1 - Valid triangle base
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 6
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 2 - Valid rectangle base
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 7: # Pyramid 2 - Valid rectangle base
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 12
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 13: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 18
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 4 - Valid pentagon base
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 19: # Pyramid 4 - Valid pentagon base
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 26
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 27: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 31
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 6 - Invalid: malformed line
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 32: # Pyramid 6 - Invalid: malformed line
+2025-06-07 16:59:22 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 33: abc,1.0,2.0
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 37
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 7 - Valid triangle base
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 38: # Pyramid 7 - Valid triangle base
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 43
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 8 - Valid square base
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 44: # Pyramid 8 - Valid square base
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 50
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 51: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 8.0,8.0
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 53: 8.0,8.0
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 56
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 10 - Valid triangle base
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 57: # Pyramid 10 - Valid triangle base
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 62
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 63: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 16:59:22 WARN  PointParserImpl:24 - Skipping empty or null line at 68
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Extra invalid lines
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 69: # Extra invalid lines
+2025-06-07 16:59:22 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 70: abc,1.0,2.0
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1.0,2.0
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 71: 1.0,2.0
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1.0,2.0,3.0,4.0
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 72: 1.0,2.0,3.0,4.0
+2025-06-07 16:59:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: 1.0 2.0 3.0
+2025-06-07 16:59:22 WARN  PointParserImpl:30 - Skipping invalid format on line 73: 1.0 2.0 3.0
+2025-06-07 16:59:22 INFO  PointParserImpl:53 - Parsed 44 valid points out of 73 lines (29 skipped)
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 1
+2025-06-07 16:59:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:59:22 INFO  PyramidValidator:32 - Pyramid 1 is valid.
+2025-06-07 16:59:22 INFO  ValidPyramidState:13 - Pyramid 1 is valid. Proceeding to update warehouse.
+2025-06-07 16:59:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 1
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=1, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:59:22 INFO  PyramidFacade:36 - Pyramid ID 1 added to repository
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 2
+2025-06-07 16:59:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:59:22 INFO  PyramidValidator:32 - Pyramid 2 is valid.
+2025-06-07 16:59:22 INFO  ValidPyramidState:13 - Pyramid 2 is valid. Proceeding to update warehouse.
+2025-06-07 16:59:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 2
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=2, apex=Point(x=1,00, y=1,00, z=4,00), base=[Point(x=1,00, y=1,00, z=0,00), Point(x=3,00, y=1,00, z=0,00), Point(x=3,00, y=2,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:59:22 INFO  PyramidFacade:36 - Pyramid ID 2 added to repository
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 3
+2025-06-07 16:59:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:59:22 INFO  PyramidValidator:32 - Pyramid 3 is valid.
+2025-06-07 16:59:22 INFO  ValidPyramidState:13 - Pyramid 3 is valid. Proceeding to update warehouse.
+2025-06-07 16:59:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 3
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=3, apex=Point(x=2,00, y=2,00, z=3,00), base=[Point(x=2,00, y=2,00, z=0,00), Point(x=2,50, y=2,20, z=0,00), Point(x=2,30, y=2,80, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:59:22 INFO  PyramidFacade:36 - Pyramid ID 3 added to repository
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 4
+2025-06-07 16:59:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:59:22 INFO  PyramidValidator:32 - Pyramid 4 is valid.
+2025-06-07 16:59:22 INFO  ValidPyramidState:13 - Pyramid 4 is valid. Proceeding to update warehouse.
+2025-06-07 16:59:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 4
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=4, apex=Point(x=4,00, y=4,00, z=6,00), base=[Point(x=4,00, y=4,00, z=0,00), Point(x=4,50, y=4,10, z=0,00), Point(x=4,70, y=4,40, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:59:22 INFO  PyramidFacade:36 - Pyramid ID 4 added to repository
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 5
+2025-06-07 16:59:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:59:22 INFO  PyramidValidator:32 - Pyramid 5 is valid.
+2025-06-07 16:59:22 INFO  ValidPyramidState:13 - Pyramid 5 is valid. Proceeding to update warehouse.
+2025-06-07 16:59:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 5
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=5, apex=Point(x=4,30, y=4,60, z=0,00), base=[Point(x=3,90, y=4,30, z=0,00), Point(x=5,00, y=5,00, z=5,00), Point(x=5,00, y=5,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:59:22 INFO  PyramidFacade:36 - Pyramid ID 5 added to repository
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 6
+2025-06-07 16:59:22 WARN  PyramidValidator:26 - Apex is coplanar with the base.
+2025-06-07 16:59:22 WARN  InvalidPyramidState:12 - Pyramid 6 is invalid. No further processing.
+2025-06-07 16:59:22 WARN  PyramidFacade:38 - Pyramid ID 6 is invalid and was not added to repository
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 7
+2025-06-07 16:59:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:59:22 INFO  PyramidValidator:32 - Pyramid 7 is valid.
+2025-06-07 16:59:22 INFO  ValidPyramidState:13 - Pyramid 7 is valid. Proceeding to update warehouse.
+2025-06-07 16:59:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 7
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=7, apex=Point(x=6,00, y=6,00, z=3,00), base=[Point(x=6,00, y=6,00, z=0,00), Point(x=7,00, y=6,00, z=0,00), Point(x=6,50, y=6,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:59:22 INFO  PyramidFacade:36 - Pyramid ID 7 added to repository
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 8
+2025-06-07 16:59:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:59:22 INFO  PyramidValidator:32 - Pyramid 8 is valid.
+2025-06-07 16:59:22 INFO  ValidPyramidState:13 - Pyramid 8 is valid. Proceeding to update warehouse.
+2025-06-07 16:59:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 8
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=8, apex=Point(x=7,00, y=7,00, z=5,00), base=[Point(x=7,00, y=7,00, z=0,00), Point(x=8,00, y=7,00, z=0,00), Point(x=8,00, y=8,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:59:22 INFO  PyramidFacade:36 - Pyramid ID 8 added to repository
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 9
+2025-06-07 16:59:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:59:22 INFO  PyramidValidator:32 - Pyramid 9 is valid.
+2025-06-07 16:59:22 INFO  ValidPyramidState:13 - Pyramid 9 is valid. Proceeding to update warehouse.
+2025-06-07 16:59:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 9
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=9, apex=Point(x=7,00, y=8,00, z=0,00), base=[Point(x=8,00, y=8,00, z=6,00), Point(x=9,00, y=8,00, z=0,00), Point(x=9,00, y=9,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:59:22 INFO  PyramidFacade:36 - Pyramid ID 9 added to repository
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 10
+2025-06-07 16:59:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:59:22 INFO  PyramidValidator:32 - Pyramid 10 is valid.
+2025-06-07 16:59:22 INFO  ValidPyramidState:13 - Pyramid 10 is valid. Proceeding to update warehouse.
+2025-06-07 16:59:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 10
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=10, apex=Point(x=9,00, y=9,00, z=7,00), base=[Point(x=9,00, y=9,00, z=0,00), Point(x=10,00, y=9,00, z=0,00), Point(x=9,50, y=9,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:59:22 INFO  PyramidFacade:36 - Pyramid ID 10 added to repository
+2025-06-07 16:59:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 11
+2025-06-07 16:59:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 16:59:22 INFO  PyramidValidator:32 - Pyramid 11 is valid.
+2025-06-07 16:59:22 INFO  ValidPyramidState:13 - Pyramid 11 is valid. Proceeding to update warehouse.
+2025-06-07 16:59:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 11
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=11, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 16:59:22 INFO  PyramidFacade:36 - Pyramid ID 11 added to repository
+2025-06-07 16:59:22 INFO  PyramidFacade:64 - Successfully loaded pyramids from file: src/main/resources/points.txt
+2025-06-07 16:59:22 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 10
+2025-06-07 18:16:38 INFO  FileReaderUtility:25 - Successfully read 73 lines from src/main/resources/points.txt
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 1 - Valid triangle base
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 1: # Pyramid 1 - Valid triangle base
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 6
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 2 - Valid rectangle base
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 7: # Pyramid 2 - Valid rectangle base
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 12
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 13: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 18
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 4 - Valid pentagon base
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 19: # Pyramid 4 - Valid pentagon base
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 26
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 27: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 31
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 6 - Invalid: malformed line
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 32: # Pyramid 6 - Invalid: malformed line
+2025-06-07 18:16:38 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 33: abc,1.0,2.0
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 37
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 7 - Valid triangle base
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 38: # Pyramid 7 - Valid triangle base
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 43
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 8 - Valid square base
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 44: # Pyramid 8 - Valid square base
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 50
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 51: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 8.0,8.0
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 53: 8.0,8.0
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 56
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 10 - Valid triangle base
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 57: # Pyramid 10 - Valid triangle base
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 62
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 63: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 18:16:38 WARN  PointParserImpl:24 - Skipping empty or null line at 68
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Extra invalid lines
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 69: # Extra invalid lines
+2025-06-07 18:16:38 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 70: abc,1.0,2.0
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1.0,2.0
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 71: 1.0,2.0
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1.0,2.0,3.0,4.0
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 72: 1.0,2.0,3.0,4.0
+2025-06-07 18:16:38 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: 1.0 2.0 3.0
+2025-06-07 18:16:38 WARN  PointParserImpl:30 - Skipping invalid format on line 73: 1.0 2.0 3.0
+2025-06-07 18:16:38 INFO  PointParserImpl:53 - Parsed 44 valid points out of 73 lines (29 skipped)
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 1
+2025-06-07 18:16:38 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:16:38 INFO  PyramidValidator:32 - Pyramid 1 is valid.
+2025-06-07 18:16:38 INFO  ValidPyramidState:13 - Pyramid 1 is valid. Proceeding to update warehouse.
+2025-06-07 18:16:38 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 1
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=1, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:16:38 INFO  PyramidFacade:38 - Pyramid ID 1 added to repository
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 2
+2025-06-07 18:16:38 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:16:38 INFO  PyramidValidator:32 - Pyramid 2 is valid.
+2025-06-07 18:16:38 INFO  ValidPyramidState:13 - Pyramid 2 is valid. Proceeding to update warehouse.
+2025-06-07 18:16:38 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 2
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=2, apex=Point(x=1,00, y=1,00, z=4,00), base=[Point(x=1,00, y=1,00, z=0,00), Point(x=3,00, y=1,00, z=0,00), Point(x=3,00, y=2,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:16:38 INFO  PyramidFacade:38 - Pyramid ID 2 added to repository
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 3
+2025-06-07 18:16:38 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:16:38 INFO  PyramidValidator:32 - Pyramid 3 is valid.
+2025-06-07 18:16:38 INFO  ValidPyramidState:13 - Pyramid 3 is valid. Proceeding to update warehouse.
+2025-06-07 18:16:38 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 3
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=3, apex=Point(x=2,00, y=2,00, z=3,00), base=[Point(x=2,00, y=2,00, z=0,00), Point(x=2,50, y=2,20, z=0,00), Point(x=2,30, y=2,80, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:16:38 INFO  PyramidFacade:38 - Pyramid ID 3 added to repository
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 4
+2025-06-07 18:16:38 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:16:38 INFO  PyramidValidator:32 - Pyramid 4 is valid.
+2025-06-07 18:16:38 INFO  ValidPyramidState:13 - Pyramid 4 is valid. Proceeding to update warehouse.
+2025-06-07 18:16:38 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 4
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=4, apex=Point(x=4,00, y=4,00, z=6,00), base=[Point(x=4,00, y=4,00, z=0,00), Point(x=4,50, y=4,10, z=0,00), Point(x=4,70, y=4,40, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:16:38 INFO  PyramidFacade:38 - Pyramid ID 4 added to repository
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 5
+2025-06-07 18:16:38 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:16:38 INFO  PyramidValidator:32 - Pyramid 5 is valid.
+2025-06-07 18:16:38 INFO  ValidPyramidState:13 - Pyramid 5 is valid. Proceeding to update warehouse.
+2025-06-07 18:16:38 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 5
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=5, apex=Point(x=4,30, y=4,60, z=0,00), base=[Point(x=3,90, y=4,30, z=0,00), Point(x=5,00, y=5,00, z=5,00), Point(x=5,00, y=5,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:16:38 INFO  PyramidFacade:38 - Pyramid ID 5 added to repository
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 6
+2025-06-07 18:16:38 WARN  PyramidValidator:26 - Apex is coplanar with the base.
+2025-06-07 18:16:38 WARN  InvalidPyramidState:12 - Pyramid 6 is invalid. No further processing.
+2025-06-07 18:16:38 WARN  PyramidFacade:40 - Pyramid ID 6 is invalid and was not added to repository
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 7
+2025-06-07 18:16:38 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:16:38 INFO  PyramidValidator:32 - Pyramid 7 is valid.
+2025-06-07 18:16:38 INFO  ValidPyramidState:13 - Pyramid 7 is valid. Proceeding to update warehouse.
+2025-06-07 18:16:38 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 7
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=7, apex=Point(x=6,00, y=6,00, z=3,00), base=[Point(x=6,00, y=6,00, z=0,00), Point(x=7,00, y=6,00, z=0,00), Point(x=6,50, y=6,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:16:38 INFO  PyramidFacade:38 - Pyramid ID 7 added to repository
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 8
+2025-06-07 18:16:38 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:16:38 INFO  PyramidValidator:32 - Pyramid 8 is valid.
+2025-06-07 18:16:38 INFO  ValidPyramidState:13 - Pyramid 8 is valid. Proceeding to update warehouse.
+2025-06-07 18:16:38 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 8
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=8, apex=Point(x=7,00, y=7,00, z=5,00), base=[Point(x=7,00, y=7,00, z=0,00), Point(x=8,00, y=7,00, z=0,00), Point(x=8,00, y=8,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:16:38 INFO  PyramidFacade:38 - Pyramid ID 8 added to repository
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 9
+2025-06-07 18:16:38 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:16:38 INFO  PyramidValidator:32 - Pyramid 9 is valid.
+2025-06-07 18:16:38 INFO  ValidPyramidState:13 - Pyramid 9 is valid. Proceeding to update warehouse.
+2025-06-07 18:16:38 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 9
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=9, apex=Point(x=7,00, y=8,00, z=0,00), base=[Point(x=8,00, y=8,00, z=6,00), Point(x=9,00, y=8,00, z=0,00), Point(x=9,00, y=9,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:16:38 INFO  PyramidFacade:38 - Pyramid ID 9 added to repository
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 10
+2025-06-07 18:16:38 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:16:38 INFO  PyramidValidator:32 - Pyramid 10 is valid.
+2025-06-07 18:16:38 INFO  ValidPyramidState:13 - Pyramid 10 is valid. Proceeding to update warehouse.
+2025-06-07 18:16:38 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 10
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=10, apex=Point(x=9,00, y=9,00, z=7,00), base=[Point(x=9,00, y=9,00, z=0,00), Point(x=10,00, y=9,00, z=0,00), Point(x=9,50, y=9,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:16:38 INFO  PyramidFacade:38 - Pyramid ID 10 added to repository
+2025-06-07 18:16:38 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 11
+2025-06-07 18:16:38 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:16:38 INFO  PyramidValidator:32 - Pyramid 11 is valid.
+2025-06-07 18:16:38 INFO  ValidPyramidState:13 - Pyramid 11 is valid. Proceeding to update warehouse.
+2025-06-07 18:16:38 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 11
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=11, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:16:38 INFO  PyramidFacade:38 - Pyramid ID 11 added to repository
+2025-06-07 18:16:38 INFO  PyramidFacade:66 - Successfully loaded pyramids from file: src/main/resources/points.txt
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 10
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: VolumeComparator
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: AreaComparator
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: HeightComparator
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: IdComparator
+2025-06-07 18:16:38 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: TypeComparator
+2025-06-07 18:20:12 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 1
+2025-06-07 18:20:12 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 18:20:16 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 1
+2025-06-07 18:20:16 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 18:21:30 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 1
+2025-06-07 18:21:30 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 18:21:30 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 3
+2025-06-07 18:21:42 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 1
+2025-06-07 18:21:42 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 18:22:06 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 1
+2025-06-07 18:22:06 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 18:22:06 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 3
+2025-06-07 18:26:54 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 1
+2025-06-07 18:26:54 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 18:26:54 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 3
+2025-06-07 18:26:54 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 3
+2025-06-07 18:26:54 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 4
+2025-06-07 18:28:03 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 1
+2025-06-07 18:28:03 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 18:28:03 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 3
+2025-06-07 18:28:03 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 3
+2025-06-07 18:28:03 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 4
+2025-06-07 18:28:07 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 1
+2025-06-07 18:28:07 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 18:29:58 ERROR FileReaderUtility:28 - Failed to read file at no_such_file.txt: no_such_file.txt
+2025-06-07 18:29:58 INFO  FileReaderUtility:25 - Successfully read 52 lines from /Users/nastya/IdeaProjects/shapes/target/test-classes/valid_points.txt
+2025-06-07 18:29:58 INFO  FileReaderUtility:25 - Successfully read 12 lines from /Users/nastya/IdeaProjects/shapes/target/test-classes/mixed_points.txt
+2025-06-07 18:29:58 INFO  FileReaderUtility:25 - Successfully read 18 lines from /Users/nastya/IdeaProjects/shapes/target/test-classes/invalid_points.txt
+2025-06-07 18:30:55 INFO  FileReaderUtility:25 - Successfully read 73 lines from src/main/resources/points.txt
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 1 - Valid triangle base
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 1: # Pyramid 1 - Valid triangle base
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 6
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 2 - Valid rectangle base
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 7: # Pyramid 2 - Valid rectangle base
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 12
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 13: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 18
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 4 - Valid pentagon base
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 19: # Pyramid 4 - Valid pentagon base
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 26
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 27: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 31
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 6 - Invalid: malformed line
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 32: # Pyramid 6 - Invalid: malformed line
+2025-06-07 18:30:55 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 33: abc,1.0,2.0
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 37
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 7 - Valid triangle base
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 38: # Pyramid 7 - Valid triangle base
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 43
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 8 - Valid square base
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 44: # Pyramid 8 - Valid square base
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 50
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 51: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 8.0,8.0
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 53: 8.0,8.0
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 56
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 10 - Valid triangle base
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 57: # Pyramid 10 - Valid triangle base
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 62
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 63: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 18:30:55 WARN  PointParserImpl:24 - Skipping empty or null line at 68
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Extra invalid lines
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 69: # Extra invalid lines
+2025-06-07 18:30:55 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 70: abc,1.0,2.0
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1.0,2.0
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 71: 1.0,2.0
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1.0,2.0,3.0,4.0
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 72: 1.0,2.0,3.0,4.0
+2025-06-07 18:30:55 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: 1.0 2.0 3.0
+2025-06-07 18:30:55 WARN  PointParserImpl:30 - Skipping invalid format on line 73: 1.0 2.0 3.0
+2025-06-07 18:30:55 INFO  PointParserImpl:53 - Parsed 44 valid points out of 73 lines (29 skipped)
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 1
+2025-06-07 18:30:55 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:30:55 INFO  PyramidValidator:32 - Pyramid 1 is valid.
+2025-06-07 18:30:55 INFO  ValidPyramidState:13 - Pyramid 1 is valid. Proceeding to update warehouse.
+2025-06-07 18:30:55 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 1
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=1, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:30:55 INFO  PyramidFacade:38 - Pyramid ID 1 added to repository
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 2
+2025-06-07 18:30:55 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:30:55 INFO  PyramidValidator:32 - Pyramid 2 is valid.
+2025-06-07 18:30:55 INFO  ValidPyramidState:13 - Pyramid 2 is valid. Proceeding to update warehouse.
+2025-06-07 18:30:55 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 2
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=2, apex=Point(x=1,00, y=1,00, z=4,00), base=[Point(x=1,00, y=1,00, z=0,00), Point(x=3,00, y=1,00, z=0,00), Point(x=3,00, y=2,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:30:55 INFO  PyramidFacade:38 - Pyramid ID 2 added to repository
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 3
+2025-06-07 18:30:55 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:30:55 INFO  PyramidValidator:32 - Pyramid 3 is valid.
+2025-06-07 18:30:55 INFO  ValidPyramidState:13 - Pyramid 3 is valid. Proceeding to update warehouse.
+2025-06-07 18:30:55 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 3
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=3, apex=Point(x=2,00, y=2,00, z=3,00), base=[Point(x=2,00, y=2,00, z=0,00), Point(x=2,50, y=2,20, z=0,00), Point(x=2,30, y=2,80, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:30:55 INFO  PyramidFacade:38 - Pyramid ID 3 added to repository
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 4
+2025-06-07 18:30:55 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:30:55 INFO  PyramidValidator:32 - Pyramid 4 is valid.
+2025-06-07 18:30:55 INFO  ValidPyramidState:13 - Pyramid 4 is valid. Proceeding to update warehouse.
+2025-06-07 18:30:55 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 4
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=4, apex=Point(x=4,00, y=4,00, z=6,00), base=[Point(x=4,00, y=4,00, z=0,00), Point(x=4,50, y=4,10, z=0,00), Point(x=4,70, y=4,40, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:30:55 INFO  PyramidFacade:38 - Pyramid ID 4 added to repository
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 5
+2025-06-07 18:30:55 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:30:55 INFO  PyramidValidator:32 - Pyramid 5 is valid.
+2025-06-07 18:30:55 INFO  ValidPyramidState:13 - Pyramid 5 is valid. Proceeding to update warehouse.
+2025-06-07 18:30:55 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 5
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=5, apex=Point(x=4,30, y=4,60, z=0,00), base=[Point(x=3,90, y=4,30, z=0,00), Point(x=5,00, y=5,00, z=5,00), Point(x=5,00, y=5,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:30:55 INFO  PyramidFacade:38 - Pyramid ID 5 added to repository
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 6
+2025-06-07 18:30:55 WARN  PyramidValidator:26 - Apex is coplanar with the base.
+2025-06-07 18:30:55 WARN  InvalidPyramidState:12 - Pyramid 6 is invalid. No further processing.
+2025-06-07 18:30:55 WARN  PyramidFacade:40 - Pyramid ID 6 is invalid and was not added to repository
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 7
+2025-06-07 18:30:55 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:30:55 INFO  PyramidValidator:32 - Pyramid 7 is valid.
+2025-06-07 18:30:55 INFO  ValidPyramidState:13 - Pyramid 7 is valid. Proceeding to update warehouse.
+2025-06-07 18:30:55 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 7
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=7, apex=Point(x=6,00, y=6,00, z=3,00), base=[Point(x=6,00, y=6,00, z=0,00), Point(x=7,00, y=6,00, z=0,00), Point(x=6,50, y=6,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:30:55 INFO  PyramidFacade:38 - Pyramid ID 7 added to repository
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 8
+2025-06-07 18:30:55 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:30:55 INFO  PyramidValidator:32 - Pyramid 8 is valid.
+2025-06-07 18:30:55 INFO  ValidPyramidState:13 - Pyramid 8 is valid. Proceeding to update warehouse.
+2025-06-07 18:30:55 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 8
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=8, apex=Point(x=7,00, y=7,00, z=5,00), base=[Point(x=7,00, y=7,00, z=0,00), Point(x=8,00, y=7,00, z=0,00), Point(x=8,00, y=8,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:30:55 INFO  PyramidFacade:38 - Pyramid ID 8 added to repository
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 9
+2025-06-07 18:30:55 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:30:55 INFO  PyramidValidator:32 - Pyramid 9 is valid.
+2025-06-07 18:30:55 INFO  ValidPyramidState:13 - Pyramid 9 is valid. Proceeding to update warehouse.
+2025-06-07 18:30:55 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 9
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=9, apex=Point(x=7,00, y=8,00, z=0,00), base=[Point(x=8,00, y=8,00, z=6,00), Point(x=9,00, y=8,00, z=0,00), Point(x=9,00, y=9,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:30:55 INFO  PyramidFacade:38 - Pyramid ID 9 added to repository
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 10
+2025-06-07 18:30:55 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:30:55 INFO  PyramidValidator:32 - Pyramid 10 is valid.
+2025-06-07 18:30:55 INFO  ValidPyramidState:13 - Pyramid 10 is valid. Proceeding to update warehouse.
+2025-06-07 18:30:55 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 10
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=10, apex=Point(x=9,00, y=9,00, z=7,00), base=[Point(x=9,00, y=9,00, z=0,00), Point(x=10,00, y=9,00, z=0,00), Point(x=9,50, y=9,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:30:55 INFO  PyramidFacade:38 - Pyramid ID 10 added to repository
+2025-06-07 18:30:55 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 11
+2025-06-07 18:30:55 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:30:55 INFO  PyramidValidator:32 - Pyramid 11 is valid.
+2025-06-07 18:30:55 INFO  ValidPyramidState:13 - Pyramid 11 is valid. Proceeding to update warehouse.
+2025-06-07 18:30:55 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 11
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=11, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:30:55 INFO  PyramidFacade:38 - Pyramid ID 11 added to repository
+2025-06-07 18:30:55 INFO  PyramidFacade:66 - Successfully loaded pyramids from file: src/main/resources/points.txt
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 10
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: VolumeComparator
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: AreaComparator
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: HeightComparator
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: IdComparator
+2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: TypeComparator
