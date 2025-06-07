@@ -8,8 +8,8 @@ class VolumeComparatorTest extends BaseComparatorTest {
 
     @Test
     void compareByVolume() {
-        var small = build(1, 2);   // объём меньше
-        var big   = build(1, 6);   // объём больше (в 3 раза выше)
+        var small = build(1, 2);
+        var big   = build(1, 6);
 
         VolumeComparator cmp = new VolumeComparator();
 

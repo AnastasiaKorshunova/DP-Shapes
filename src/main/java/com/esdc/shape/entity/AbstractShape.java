@@ -8,7 +8,7 @@ import java.util.List;
 
 public abstract class AbstractShape implements PyramidObservable {
     private final long id;
-    protected final List<PyramidObserver> observers = new ArrayList<>();
+    private final List<PyramidObserver> observers = new ArrayList<>();
 
     public AbstractShape(long id) {
         this.id = id;

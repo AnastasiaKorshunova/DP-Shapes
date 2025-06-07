@@ -1,6 +1,5 @@
 package com.esdc.shape.validation;
 
-import com.esdc.shape.exception.InvalidPointFormatException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

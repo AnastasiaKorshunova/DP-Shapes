@@ -8,8 +8,8 @@ class AreaComparatorTest extends BaseComparatorTest {
 
     @Test
     void compareByArea() {
-        var narrow = build(1, 3);   // основание S≈0.433
-        var wide   = build(2, 3);   // основание S≈1.732
+        var narrow = build(1, 3);
+        var wide   = build(2, 3);
 
         AreaComparator cmp = new AreaComparator();
 

@@ -24,14 +24,6 @@ public class Warehouse {
         return propertiesMap.get(pyramidId);
     }
 
-    public boolean contains(long id) {
-        return propertiesMap.containsKey(id);
-    }
-
-    public Map<Long, PyramidProperties> getAllProperties() {
-        return new HashMap<>(propertiesMap);
-    }
-
     public void clearPropertiesMap() {
         propertiesMap.clear();
     }

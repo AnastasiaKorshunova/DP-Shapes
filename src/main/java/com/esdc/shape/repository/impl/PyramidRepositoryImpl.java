@@ -28,7 +28,7 @@ public class PyramidRepositoryImpl implements PyramidRepository {
     }
 
     @Override
-    public List<Pyramid> query(Specification<Pyramid> spec) { // <-- обновлено
+    public List<Pyramid> query(Specification<Pyramid> spec) {
         List<Pyramid> result = pyramids.stream()
                 .filter(spec::isSatisfiedBy)
                 .collect(Collectors.toList());

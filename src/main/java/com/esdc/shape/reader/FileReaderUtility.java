@@ -12,12 +12,8 @@ import java.util.List;
 public class FileReaderUtility {
 
     private static final Logger logger = LoggerFactory.getLogger(FileReaderUtility.class);
+    private static List<String> strings;
 
-    /**
-     * Reads all lines from a text file.
-     * @param filePath Path to the file.
-     * @return A list of raw strings representing lines from the file.
-     */
     public static List<String> readLines(String filePath) {
         Path path = Path.of(filePath);
         try {
@@ -26,7 +22,7 @@ public class FileReaderUtility {
             return lines;
         } catch (IOException e) {
             logger.error("Failed to read file at {}: {}", filePath, e.getMessage());
-            return Collections.emptyList(); // или throw, если нужно прерывать
+            return Collections.emptyList();
         }
     }
 }

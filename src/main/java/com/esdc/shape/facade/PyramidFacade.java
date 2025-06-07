@@ -29,7 +29,7 @@ public class PyramidFacade {
     private final PyramidFactory pyramidFactory = new PyramidFactoryImpl();
     private final PointParser pointParser = new PointParserImpl();
 
-    public Pyramid createPyramid(Point apex, List<Point> base) {
+    public void createPyramid(Point apex, List<Point> base) {
         Pyramid pyramid = pyramidFactory.createPyramid(apex, base);
         PyramidValidator.validateAndSetState(pyramid);
 
@@ -39,8 +39,6 @@ public class PyramidFacade {
         } else {
             logger.warn("Pyramid ID {} is invalid and was not added to repository", pyramid.getPyramidId());
         }
-
-        return pyramid;
     }
 
     public List<Point> readPointsFromFile(String filePath) throws IOException {

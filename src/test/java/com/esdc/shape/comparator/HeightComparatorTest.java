@@ -8,8 +8,8 @@ class HeightComparatorTest extends BaseComparatorTest {
 
     @Test
     void compareByHeight() {
-        var low  = build(1, 2);   // вершина на Z=2
-        var high = build(1, 7);   // вершина на Z=7
+        var low  = build(1, 2);
+        var high = build(1, 7);
 
         HeightComparator cmp = new HeightComparator();
 

@@ -585,3 +585,899 @@ com.esdc.shape.exception.FileParsingException: Invalid format on line 5: ""
 2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: HeightComparator
 2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: IdComparator
 2025-06-07 18:30:55 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: TypeComparator
+2025-06-07 18:44:34 INFO  FileReaderUtility:25 - Successfully read 73 lines from src/main/resources/points.txt
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 1 - Valid triangle base
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 1: # Pyramid 1 - Valid triangle base
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 6
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 2 - Valid rectangle base
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 7: # Pyramid 2 - Valid rectangle base
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 12
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 13: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 18
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 4 - Valid pentagon base
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 19: # Pyramid 4 - Valid pentagon base
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 26
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 27: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 31
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 6 - Invalid: malformed line
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 32: # Pyramid 6 - Invalid: malformed line
+2025-06-07 18:44:34 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 33: abc,1.0,2.0
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 37
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 7 - Valid triangle base
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 38: # Pyramid 7 - Valid triangle base
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 43
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 8 - Valid square base
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 44: # Pyramid 8 - Valid square base
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 50
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 51: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 8.0,8.0
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 53: 8.0,8.0
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 56
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 10 - Valid triangle base
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 57: # Pyramid 10 - Valid triangle base
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 62
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 63: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 18:44:34 WARN  PointParserImpl:24 - Skipping empty or null line at 68
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Extra invalid lines
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 69: # Extra invalid lines
+2025-06-07 18:44:34 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 70: abc,1.0,2.0
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1.0,2.0
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 71: 1.0,2.0
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1.0,2.0,3.0,4.0
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 72: 1.0,2.0,3.0,4.0
+2025-06-07 18:44:34 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: 1.0 2.0 3.0
+2025-06-07 18:44:34 WARN  PointParserImpl:30 - Skipping invalid format on line 73: 1.0 2.0 3.0
+2025-06-07 18:44:34 INFO  PointParserImpl:53 - Parsed 44 valid points out of 73 lines (29 skipped)
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 1
+2025-06-07 18:44:34 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:44:34 INFO  PyramidValidator:32 - Pyramid 1 is valid.
+2025-06-07 18:44:34 INFO  ValidPyramidState:13 - Pyramid 1 is valid. Proceeding to update warehouse.
+2025-06-07 18:44:34 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 1
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=1, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:44:34 INFO  PyramidFacade:38 - Pyramid ID 1 added to repository
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 2
+2025-06-07 18:44:34 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:44:34 INFO  PyramidValidator:32 - Pyramid 2 is valid.
+2025-06-07 18:44:34 INFO  ValidPyramidState:13 - Pyramid 2 is valid. Proceeding to update warehouse.
+2025-06-07 18:44:34 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 2
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=2, apex=Point(x=1,00, y=1,00, z=4,00), base=[Point(x=1,00, y=1,00, z=0,00), Point(x=3,00, y=1,00, z=0,00), Point(x=3,00, y=2,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:44:34 INFO  PyramidFacade:38 - Pyramid ID 2 added to repository
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 3
+2025-06-07 18:44:34 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:44:34 INFO  PyramidValidator:32 - Pyramid 3 is valid.
+2025-06-07 18:44:34 INFO  ValidPyramidState:13 - Pyramid 3 is valid. Proceeding to update warehouse.
+2025-06-07 18:44:34 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 3
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=3, apex=Point(x=2,00, y=2,00, z=3,00), base=[Point(x=2,00, y=2,00, z=0,00), Point(x=2,50, y=2,20, z=0,00), Point(x=2,30, y=2,80, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:44:34 INFO  PyramidFacade:38 - Pyramid ID 3 added to repository
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 4
+2025-06-07 18:44:34 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:44:34 INFO  PyramidValidator:32 - Pyramid 4 is valid.
+2025-06-07 18:44:34 INFO  ValidPyramidState:13 - Pyramid 4 is valid. Proceeding to update warehouse.
+2025-06-07 18:44:34 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 4
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=4, apex=Point(x=4,00, y=4,00, z=6,00), base=[Point(x=4,00, y=4,00, z=0,00), Point(x=4,50, y=4,10, z=0,00), Point(x=4,70, y=4,40, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:44:34 INFO  PyramidFacade:38 - Pyramid ID 4 added to repository
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 5
+2025-06-07 18:44:34 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:44:34 INFO  PyramidValidator:32 - Pyramid 5 is valid.
+2025-06-07 18:44:34 INFO  ValidPyramidState:13 - Pyramid 5 is valid. Proceeding to update warehouse.
+2025-06-07 18:44:34 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 5
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=5, apex=Point(x=4,30, y=4,60, z=0,00), base=[Point(x=3,90, y=4,30, z=0,00), Point(x=5,00, y=5,00, z=5,00), Point(x=5,00, y=5,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:44:34 INFO  PyramidFacade:38 - Pyramid ID 5 added to repository
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 6
+2025-06-07 18:44:34 WARN  PyramidValidator:26 - Apex is coplanar with the base.
+2025-06-07 18:44:34 WARN  InvalidPyramidState:12 - Pyramid 6 is invalid. No further processing.
+2025-06-07 18:44:34 WARN  PyramidFacade:40 - Pyramid ID 6 is invalid and was not added to repository
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 7
+2025-06-07 18:44:34 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:44:34 INFO  PyramidValidator:32 - Pyramid 7 is valid.
+2025-06-07 18:44:34 INFO  ValidPyramidState:13 - Pyramid 7 is valid. Proceeding to update warehouse.
+2025-06-07 18:44:34 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 7
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=7, apex=Point(x=6,00, y=6,00, z=3,00), base=[Point(x=6,00, y=6,00, z=0,00), Point(x=7,00, y=6,00, z=0,00), Point(x=6,50, y=6,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:44:34 INFO  PyramidFacade:38 - Pyramid ID 7 added to repository
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 8
+2025-06-07 18:44:34 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:44:34 INFO  PyramidValidator:32 - Pyramid 8 is valid.
+2025-06-07 18:44:34 INFO  ValidPyramidState:13 - Pyramid 8 is valid. Proceeding to update warehouse.
+2025-06-07 18:44:34 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 8
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=8, apex=Point(x=7,00, y=7,00, z=5,00), base=[Point(x=7,00, y=7,00, z=0,00), Point(x=8,00, y=7,00, z=0,00), Point(x=8,00, y=8,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:44:34 INFO  PyramidFacade:38 - Pyramid ID 8 added to repository
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 9
+2025-06-07 18:44:34 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:44:34 INFO  PyramidValidator:32 - Pyramid 9 is valid.
+2025-06-07 18:44:34 INFO  ValidPyramidState:13 - Pyramid 9 is valid. Proceeding to update warehouse.
+2025-06-07 18:44:34 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 9
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=9, apex=Point(x=7,00, y=8,00, z=0,00), base=[Point(x=8,00, y=8,00, z=6,00), Point(x=9,00, y=8,00, z=0,00), Point(x=9,00, y=9,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:44:34 INFO  PyramidFacade:38 - Pyramid ID 9 added to repository
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 10
+2025-06-07 18:44:34 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:44:34 INFO  PyramidValidator:32 - Pyramid 10 is valid.
+2025-06-07 18:44:34 INFO  ValidPyramidState:13 - Pyramid 10 is valid. Proceeding to update warehouse.
+2025-06-07 18:44:34 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 10
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=10, apex=Point(x=9,00, y=9,00, z=7,00), base=[Point(x=9,00, y=9,00, z=0,00), Point(x=10,00, y=9,00, z=0,00), Point(x=9,50, y=9,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:44:34 INFO  PyramidFacade:38 - Pyramid ID 10 added to repository
+2025-06-07 18:44:34 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 11
+2025-06-07 18:44:34 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 18:44:34 INFO  PyramidValidator:32 - Pyramid 11 is valid.
+2025-06-07 18:44:34 INFO  ValidPyramidState:13 - Pyramid 11 is valid. Proceeding to update warehouse.
+2025-06-07 18:44:34 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 11
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=11, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 18:44:34 INFO  PyramidFacade:38 - Pyramid ID 11 added to repository
+2025-06-07 18:44:34 INFO  PyramidFacade:66 - Successfully loaded pyramids from file: src/main/resources/points.txt
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 10
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: VolumeComparator
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: AreaComparator
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: HeightComparator
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: IdComparator
+2025-06-07 18:44:34 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: TypeComparator
+2025-06-07 20:06:39 WARN  PointParserImpl:24 - Skipping empty or null line at 1
+2025-06-07 20:06:39 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 20:06:39 WARN  PointParserImpl:30 - Skipping invalid format on line 2: abc,def,ghi
+2025-06-07 20:06:39 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1,2
+2025-06-07 20:06:39 WARN  PointParserImpl:30 - Skipping invalid format on line 3: 1,2
+2025-06-07 20:06:39 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1,2,3,4
+2025-06-07 20:06:39 WARN  PointParserImpl:30 - Skipping invalid format on line 4: 1,2,3,4
+2025-06-07 20:06:39 INFO  PointParserImpl:53 - Parsed 1 valid points out of 5 lines (4 skipped)
+2025-06-07 20:06:39 INFO  PointParserImpl:53 - Parsed 3 valid points out of 3 lines (0 skipped)
+2025-06-07 20:06:39 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: bad line
+2025-06-07 20:06:39 WARN  PointParserImpl:30 - Skipping invalid format on line 2: bad line
+2025-06-07 20:06:39 WARN  PointParserImpl:24 - Skipping empty or null line at 3
+2025-06-07 20:06:39 INFO  PointParserImpl:53 - Parsed 2 valid points out of 4 lines (2 skipped)
+2025-06-07 20:06:39 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): Na
+2025-06-07 20:06:39 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): a
+2025-06-07 20:06:39 WARN  PointFormatValidator:13 - Empty or null input string for point validation
+2025-06-07 20:06:39 WARN  PointFormatValidator:13 - Empty or null input string for point validation
+2025-06-07 20:06:39 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1,2
+2025-06-07 20:06:39 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1,2,3,4
+2025-06-07 20:06:39 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 1
+2025-06-07 20:06:39 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 20:06:39 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 3
+2025-06-07 20:06:39 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 4
+2025-06-07 20:06:39 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 5
+2025-06-07 20:06:39 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:06:39 INFO  PyramidValidator:32 - Pyramid 6 is valid.
+2025-06-07 20:06:39 INFO  ValidPyramidState:13 - Pyramid 6 is valid. Proceeding to update warehouse.
+2025-06-07 20:06:39 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 6
+2025-06-07 20:06:39 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:06:39 INFO  PyramidValidator:32 - Pyramid 7 is valid.
+2025-06-07 20:06:39 INFO  ValidPyramidState:13 - Pyramid 7 is valid. Proceeding to update warehouse.
+2025-06-07 20:06:39 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 7
+2025-06-07 20:06:39 WARN  PyramidValidator:26 - Apex is coplanar with the base.
+2025-06-07 20:06:39 WARN  InvalidPyramidState:12 - Pyramid 8 is invalid. No further processing.
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 726107869
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 32737623
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:27 - Pyramid removed: Mock for Pyramid, hashCode: 726107869
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 770950500
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 655713354
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1277716905
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1368193098
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:35 - Query executed. Found 1 pyramids.
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1630968203
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:06:39 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 56112634
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1459035867
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1913113425
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: Comparator$$Lambda$305/0x000000d001075358
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 3
+2025-06-07 20:06:40 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 9
+2025-06-07 20:06:40 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 10
+2025-06-07 20:06:40 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 11
+2025-06-07 20:06:40 INFO  FileReaderUtility:25 - Successfully read 3 lines from /var/folders/77/sbwsly2x2bb57hjjnfg_s3d00000gp/T/pyramid15925903012565158945.txt
+2025-06-07 20:06:40 INFO  PointParserImpl:53 - Parsed 3 valid points out of 3 lines (0 skipped)
+2025-06-07 20:06:40 ERROR PyramidFacade:54 - Invalid number of points: 3, should be a multiple of 4
+2025-06-07 20:06:40 ERROR PyramidFacade:67 - File parsing error: Invalid number of points: 3
+com.esdc.shape.exception.FileParsingException: Invalid number of points: 3
+	at com.esdc.shape.facade.PyramidFacade.loadPyramidsFromFile(PyramidFacade.java:55) ~[classes/:?]
+	at com.esdc.shape.facade.PyramidFacadeTest.lambda$loadPyramidsFromFile_invalidPoints_throwsException$0(PyramidFacadeTest.java:46) ~[test-classes/:?]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53) ~[junit-jupiter-api-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35) ~[junit-jupiter-api-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111) ~[junit-jupiter-api-5.10.0.jar:5.10.0]
+	at com.esdc.shape.facade.PyramidFacadeTest.loadPyramidsFromFile_invalidPoints_throwsException(PyramidFacadeTest.java:46) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.0.jar:1.10.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+2025-06-07 20:06:40 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 12
+2025-06-07 20:06:40 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:06:40 INFO  PyramidValidator:32 - Pyramid 12 is valid.
+2025-06-07 20:06:40 INFO  ValidPyramidState:13 - Pyramid 12 is valid. Proceeding to update warehouse.
+2025-06-07 20:06:40 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 12
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=12, apex=Point(x=0,00, y=0,00, z=1,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,00, y=1,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:06:40 INFO  PyramidFacade:38 - Pyramid ID 12 added to repository
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:06:40 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 13
+2025-06-07 20:06:40 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:06:40 INFO  PyramidValidator:32 - Pyramid 13 is valid.
+2025-06-07 20:06:40 INFO  ValidPyramidState:13 - Pyramid 13 is valid. Proceeding to update warehouse.
+2025-06-07 20:06:40 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 13
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=13, apex=Point(x=0,00, y=0,00, z=2,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=2,00, y=0,00, z=0,00), Point(x=0,00, y=2,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:06:40 INFO  PyramidFacade:38 - Pyramid ID 13 added to repository
+2025-06-07 20:06:40 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 14
+2025-06-07 20:06:40 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:06:40 INFO  PyramidValidator:32 - Pyramid 14 is valid.
+2025-06-07 20:06:40 INFO  ValidPyramidState:13 - Pyramid 14 is valid. Proceeding to update warehouse.
+2025-06-07 20:06:40 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 14
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=14, apex=Point(x=0,00, y=0,00, z=1,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,00, y=1,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:06:40 INFO  PyramidFacade:38 - Pyramid ID 14 added to repository
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: VolumeComparator
+2025-06-07 20:06:40 INFO  PyramidRepositoryImpl:35 - Query executed. Found 1 pyramids.
+2025-06-07 20:06:40 ERROR ApexValidator:16 - Base must have at least 3 points. Provided: 2
+2025-06-07 20:06:40 ERROR ApexValidator:16 - Base must have at least 3 points. Provided: 0
+2025-06-07 20:06:40 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 15
+2025-06-07 20:06:40 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 16
+2025-06-07 20:06:40 WARN  BaseValidator:34 - Point Point(x=0,00, y=0,00, z=1,00) is not in the base plane
+2025-06-07 20:06:40 ERROR BaseValidator:16 - Invalid base: less than 3 points provided
+2025-06-07 20:06:40 ERROR BaseValidator:16 - Invalid base: less than 3 points provided
+2025-06-07 20:06:40 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:06:40 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 17
+2025-06-07 20:06:40 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 18
+2025-06-07 20:10:49 INFO  FileReaderUtility:25 - Successfully read 73 lines from src/main/resources/points.txt
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 1 - Valid triangle base
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 1: # Pyramid 1 - Valid triangle base
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 6
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 2 - Valid rectangle base
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 7: # Pyramid 2 - Valid rectangle base
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 12
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 13: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 18
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 4 - Valid pentagon base
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 19: # Pyramid 4 - Valid pentagon base
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 26
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 27: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 31
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 6 - Invalid: malformed line
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 32: # Pyramid 6 - Invalid: malformed line
+2025-06-07 20:10:49 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 33: abc,1.0,2.0
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 37
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 7 - Valid triangle base
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 38: # Pyramid 7 - Valid triangle base
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 43
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 8 - Valid square base
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 44: # Pyramid 8 - Valid square base
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 50
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 51: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 8.0,8.0
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 53: 8.0,8.0
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 56
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 10 - Valid triangle base
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 57: # Pyramid 10 - Valid triangle base
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 62
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 63: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 20:10:49 WARN  PointParserImpl:24 - Skipping empty or null line at 68
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: # Extra invalid lines
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 69: # Extra invalid lines
+2025-06-07 20:10:49 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 70: abc,1.0,2.0
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1.0,2.0
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 71: 1.0,2.0
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1.0,2.0,3.0,4.0
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 72: 1.0,2.0,3.0,4.0
+2025-06-07 20:10:49 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: 1.0 2.0 3.0
+2025-06-07 20:10:49 WARN  PointParserImpl:30 - Skipping invalid format on line 73: 1.0 2.0 3.0
+2025-06-07 20:10:49 INFO  PointParserImpl:53 - Parsed 44 valid points out of 73 lines (29 skipped)
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 1
+2025-06-07 20:10:49 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:10:49 INFO  PyramidValidator:32 - Pyramid 1 is valid.
+2025-06-07 20:10:49 INFO  ValidPyramidState:13 - Pyramid 1 is valid. Proceeding to update warehouse.
+2025-06-07 20:10:49 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 1
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=1, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:10:49 INFO  PyramidFacade:38 - Pyramid ID 1 added to repository
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 2
+2025-06-07 20:10:49 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:10:49 INFO  PyramidValidator:32 - Pyramid 2 is valid.
+2025-06-07 20:10:49 INFO  ValidPyramidState:13 - Pyramid 2 is valid. Proceeding to update warehouse.
+2025-06-07 20:10:49 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 2
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=2, apex=Point(x=1,00, y=1,00, z=4,00), base=[Point(x=1,00, y=1,00, z=0,00), Point(x=3,00, y=1,00, z=0,00), Point(x=3,00, y=2,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:10:49 INFO  PyramidFacade:38 - Pyramid ID 2 added to repository
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 3
+2025-06-07 20:10:49 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:10:49 INFO  PyramidValidator:32 - Pyramid 3 is valid.
+2025-06-07 20:10:49 INFO  ValidPyramidState:13 - Pyramid 3 is valid. Proceeding to update warehouse.
+2025-06-07 20:10:49 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 3
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=3, apex=Point(x=2,00, y=2,00, z=3,00), base=[Point(x=2,00, y=2,00, z=0,00), Point(x=2,50, y=2,20, z=0,00), Point(x=2,30, y=2,80, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:10:49 INFO  PyramidFacade:38 - Pyramid ID 3 added to repository
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 4
+2025-06-07 20:10:49 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:10:49 INFO  PyramidValidator:32 - Pyramid 4 is valid.
+2025-06-07 20:10:49 INFO  ValidPyramidState:13 - Pyramid 4 is valid. Proceeding to update warehouse.
+2025-06-07 20:10:49 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 4
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=4, apex=Point(x=4,00, y=4,00, z=6,00), base=[Point(x=4,00, y=4,00, z=0,00), Point(x=4,50, y=4,10, z=0,00), Point(x=4,70, y=4,40, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:10:49 INFO  PyramidFacade:38 - Pyramid ID 4 added to repository
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 5
+2025-06-07 20:10:49 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:10:49 INFO  PyramidValidator:32 - Pyramid 5 is valid.
+2025-06-07 20:10:49 INFO  ValidPyramidState:13 - Pyramid 5 is valid. Proceeding to update warehouse.
+2025-06-07 20:10:49 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 5
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=5, apex=Point(x=4,30, y=4,60, z=0,00), base=[Point(x=3,90, y=4,30, z=0,00), Point(x=5,00, y=5,00, z=5,00), Point(x=5,00, y=5,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:10:49 INFO  PyramidFacade:38 - Pyramid ID 5 added to repository
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 6
+2025-06-07 20:10:49 WARN  PyramidValidator:26 - Apex is coplanar with the base.
+2025-06-07 20:10:49 WARN  InvalidPyramidState:12 - Pyramid 6 is invalid. No further processing.
+2025-06-07 20:10:49 WARN  PyramidFacade:40 - Pyramid ID 6 is invalid and was not added to repository
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 7
+2025-06-07 20:10:49 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:10:49 INFO  PyramidValidator:32 - Pyramid 7 is valid.
+2025-06-07 20:10:49 INFO  ValidPyramidState:13 - Pyramid 7 is valid. Proceeding to update warehouse.
+2025-06-07 20:10:49 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 7
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=7, apex=Point(x=6,00, y=6,00, z=3,00), base=[Point(x=6,00, y=6,00, z=0,00), Point(x=7,00, y=6,00, z=0,00), Point(x=6,50, y=6,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:10:49 INFO  PyramidFacade:38 - Pyramid ID 7 added to repository
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 8
+2025-06-07 20:10:49 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:10:49 INFO  PyramidValidator:32 - Pyramid 8 is valid.
+2025-06-07 20:10:49 INFO  ValidPyramidState:13 - Pyramid 8 is valid. Proceeding to update warehouse.
+2025-06-07 20:10:49 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 8
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=8, apex=Point(x=7,00, y=7,00, z=5,00), base=[Point(x=7,00, y=7,00, z=0,00), Point(x=8,00, y=7,00, z=0,00), Point(x=8,00, y=8,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:10:49 INFO  PyramidFacade:38 - Pyramid ID 8 added to repository
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 9
+2025-06-07 20:10:49 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:10:49 INFO  PyramidValidator:32 - Pyramid 9 is valid.
+2025-06-07 20:10:49 INFO  ValidPyramidState:13 - Pyramid 9 is valid. Proceeding to update warehouse.
+2025-06-07 20:10:49 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 9
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=9, apex=Point(x=7,00, y=8,00, z=0,00), base=[Point(x=8,00, y=8,00, z=6,00), Point(x=9,00, y=8,00, z=0,00), Point(x=9,00, y=9,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:10:49 INFO  PyramidFacade:38 - Pyramid ID 9 added to repository
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 10
+2025-06-07 20:10:49 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:10:49 INFO  PyramidValidator:32 - Pyramid 10 is valid.
+2025-06-07 20:10:49 INFO  ValidPyramidState:13 - Pyramid 10 is valid. Proceeding to update warehouse.
+2025-06-07 20:10:49 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 10
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=10, apex=Point(x=9,00, y=9,00, z=7,00), base=[Point(x=9,00, y=9,00, z=0,00), Point(x=10,00, y=9,00, z=0,00), Point(x=9,50, y=9,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:10:49 INFO  PyramidFacade:38 - Pyramid ID 10 added to repository
+2025-06-07 20:10:49 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 11
+2025-06-07 20:10:49 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:10:49 INFO  PyramidValidator:32 - Pyramid 11 is valid.
+2025-06-07 20:10:49 INFO  ValidPyramidState:13 - Pyramid 11 is valid. Proceeding to update warehouse.
+2025-06-07 20:10:49 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 11
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=11, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:10:49 INFO  PyramidFacade:38 - Pyramid ID 11 added to repository
+2025-06-07 20:10:49 INFO  PyramidFacade:64 - Successfully loaded pyramids from file: src/main/resources/points.txt
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 10
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: VolumeComparator
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: AreaComparator
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: HeightComparator
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: IdComparator
+2025-06-07 20:10:49 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: TypeComparator
+2025-06-07 20:11:22 WARN  PointParserImpl:24 - Skipping empty or null line at 1
+2025-06-07 20:11:22 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): abc
+2025-06-07 20:11:22 WARN  PointParserImpl:30 - Skipping invalid format on line 2: abc,def,ghi
+2025-06-07 20:11:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1,2
+2025-06-07 20:11:22 WARN  PointParserImpl:30 - Skipping invalid format on line 3: 1,2
+2025-06-07 20:11:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1,2,3,4
+2025-06-07 20:11:22 WARN  PointParserImpl:30 - Skipping invalid format on line 4: 1,2,3,4
+2025-06-07 20:11:22 INFO  PointParserImpl:53 - Parsed 1 valid points out of 5 lines (4 skipped)
+2025-06-07 20:11:22 INFO  PointParserImpl:53 - Parsed 3 valid points out of 3 lines (0 skipped)
+2025-06-07 20:11:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 1: bad line
+2025-06-07 20:11:22 WARN  PointParserImpl:30 - Skipping invalid format on line 2: bad line
+2025-06-07 20:11:22 WARN  PointParserImpl:24 - Skipping empty or null line at 3
+2025-06-07 20:11:22 INFO  PointParserImpl:53 - Parsed 2 valid points out of 4 lines (2 skipped)
+2025-06-07 20:11:22 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): Na
+2025-06-07 20:11:22 WARN  PointFormatValidator:27 - Invalid coordinate value (not a double): a
+2025-06-07 20:11:22 WARN  PointFormatValidator:13 - Empty or null input string for point validation
+2025-06-07 20:11:22 WARN  PointFormatValidator:13 - Empty or null input string for point validation
+2025-06-07 20:11:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 2: 1,2
+2025-06-07 20:11:22 WARN  PointFormatValidator:19 - Invalid point format: expected 3 coordinates, got 4: 1,2,3,4
+2025-06-07 20:11:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 1
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 3
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 4
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 5
+2025-06-07 20:11:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:11:22 INFO  PyramidValidator:32 - Pyramid 6 is valid.
+2025-06-07 20:11:22 INFO  ValidPyramidState:13 - Pyramid 6 is valid. Proceeding to update warehouse.
+2025-06-07 20:11:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 6
+2025-06-07 20:11:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:11:22 INFO  PyramidValidator:32 - Pyramid 7 is valid.
+2025-06-07 20:11:22 INFO  ValidPyramidState:13 - Pyramid 7 is valid. Proceeding to update warehouse.
+2025-06-07 20:11:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 7
+2025-06-07 20:11:22 WARN  PyramidValidator:26 - Apex is coplanar with the base.
+2025-06-07 20:11:22 WARN  InvalidPyramidState:12 - Pyramid 8 is invalid. No further processing.
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 726107869
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 32737623
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:27 - Pyramid removed: Mock for Pyramid, hashCode: 726107869
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 770950500
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 655713354
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1277716905
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1368193098
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:35 - Query executed. Found 1 pyramids.
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1630968203
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 56112634
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1459035867
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1913113425
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: Comparator$$Lambda$305/0x000000e001075358
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 3
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 9
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 10
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 11
+2025-06-07 20:11:22 INFO  FileReaderUtility:25 - Successfully read 3 lines from /var/folders/77/sbwsly2x2bb57hjjnfg_s3d00000gp/T/pyramid3572216918908475858.txt
+2025-06-07 20:11:22 INFO  PointParserImpl:53 - Parsed 3 valid points out of 3 lines (0 skipped)
+2025-06-07 20:11:22 ERROR PyramidFacade:54 - Invalid number of points: 3, should be a multiple of 4
+2025-06-07 20:11:22 ERROR PyramidFacade:67 - File parsing error: Invalid number of points: 3
+com.esdc.shape.exception.FileParsingException: Invalid number of points: 3
+	at com.esdc.shape.facade.PyramidFacade.loadPyramidsFromFile(PyramidFacade.java:55) ~[classes/:?]
+	at com.esdc.shape.facade.PyramidFacadeTest.lambda$loadPyramidsFromFile_invalidPoints_throwsException$0(PyramidFacadeTest.java:46) ~[test-classes/:?]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53) ~[junit-jupiter-api-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35) ~[junit-jupiter-api-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111) ~[junit-jupiter-api-5.10.0.jar:5.10.0]
+	at com.esdc.shape.facade.PyramidFacadeTest.loadPyramidsFromFile_invalidPoints_throwsException(PyramidFacadeTest.java:46) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.0.jar:1.10.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+2025-06-07 20:11:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 12
+2025-06-07 20:11:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:11:22 INFO  PyramidValidator:32 - Pyramid 12 is valid.
+2025-06-07 20:11:22 INFO  ValidPyramidState:13 - Pyramid 12 is valid. Proceeding to update warehouse.
+2025-06-07 20:11:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 12
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=12, apex=Point(x=0,00, y=0,00, z=1,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,00, y=1,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:11:22 INFO  PyramidFacade:38 - Pyramid ID 12 added to repository
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:11:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 13
+2025-06-07 20:11:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:11:22 INFO  PyramidValidator:32 - Pyramid 13 is valid.
+2025-06-07 20:11:22 INFO  ValidPyramidState:13 - Pyramid 13 is valid. Proceeding to update warehouse.
+2025-06-07 20:11:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 13
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=13, apex=Point(x=0,00, y=0,00, z=2,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=2,00, y=0,00, z=0,00), Point(x=0,00, y=2,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:11:22 INFO  PyramidFacade:38 - Pyramid ID 13 added to repository
+2025-06-07 20:11:22 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 14
+2025-06-07 20:11:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:11:22 INFO  PyramidValidator:32 - Pyramid 14 is valid.
+2025-06-07 20:11:22 INFO  ValidPyramidState:13 - Pyramid 14 is valid. Proceeding to update warehouse.
+2025-06-07 20:11:22 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 14
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=14, apex=Point(x=0,00, y=0,00, z=1,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,00, y=1,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:11:22 INFO  PyramidFacade:38 - Pyramid ID 14 added to repository
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: VolumeComparator
+2025-06-07 20:11:22 INFO  PyramidRepositoryImpl:35 - Query executed. Found 1 pyramids.
+2025-06-07 20:11:22 ERROR ApexValidator:16 - Base must have at least 3 points. Provided: 2
+2025-06-07 20:11:22 ERROR ApexValidator:16 - Base must have at least 3 points. Provided: 0
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 15
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 16
+2025-06-07 20:11:22 WARN  BaseValidator:34 - Point Point(x=0,00, y=0,00, z=1,00) is not in the base plane
+2025-06-07 20:11:22 ERROR BaseValidator:16 - Invalid base: less than 3 points provided
+2025-06-07 20:11:22 ERROR BaseValidator:16 - Invalid base: less than 3 points provided
+2025-06-07 20:11:22 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 17
+2025-06-07 20:11:22 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 18
+2025-06-07 20:19:56 WARN  PointParserImpl:24 - Skipping empty or null line at 1
+2025-06-07 20:19:56 WARN  PointFormatValidator:26 - Invalid coordinate value (not a double): abc
+2025-06-07 20:19:56 WARN  PointParserImpl:30 - Skipping invalid format on line 2: abc,def,ghi
+2025-06-07 20:19:56 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 2: 1,2
+2025-06-07 20:19:56 WARN  PointParserImpl:30 - Skipping invalid format on line 3: 1,2
+2025-06-07 20:19:56 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 4: 1,2,3,4
+2025-06-07 20:19:56 WARN  PointParserImpl:30 - Skipping invalid format on line 4: 1,2,3,4
+2025-06-07 20:19:56 INFO  PointParserImpl:53 - Parsed 1 valid points out of 5 lines (4 skipped)
+2025-06-07 20:19:56 INFO  PointParserImpl:53 - Parsed 3 valid points out of 3 lines (0 skipped)
+2025-06-07 20:19:56 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: bad line
+2025-06-07 20:19:56 WARN  PointParserImpl:30 - Skipping invalid format on line 2: bad line
+2025-06-07 20:19:56 WARN  PointParserImpl:24 - Skipping empty or null line at 3
+2025-06-07 20:19:56 INFO  PointParserImpl:53 - Parsed 2 valid points out of 4 lines (2 skipped)
+2025-06-07 20:19:56 WARN  PointFormatValidator:26 - Invalid coordinate value (not a double): Na
+2025-06-07 20:19:56 WARN  PointFormatValidator:26 - Invalid coordinate value (not a double): a
+2025-06-07 20:19:56 WARN  PointFormatValidator:12 - Empty or null input string for point validation
+2025-06-07 20:19:56 WARN  PointFormatValidator:12 - Empty or null input string for point validation
+2025-06-07 20:19:56 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 2: 1,2
+2025-06-07 20:19:56 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 4: 1,2,3,4
+2025-06-07 20:19:56 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 1
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 2
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 3
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 4
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 5
+2025-06-07 20:19:56 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:19:56 INFO  PyramidValidator:32 - Pyramid 6 is valid.
+2025-06-07 20:19:56 INFO  ValidPyramidState:13 - Pyramid 6 is valid. Proceeding to update warehouse.
+2025-06-07 20:19:56 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 6
+2025-06-07 20:19:56 WARN  PyramidValidator:26 - Apex is coplanar with the base.
+2025-06-07 20:19:56 WARN  InvalidPyramidState:12 - Pyramid 7 is invalid. No further processing.
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 124376339
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1111710616
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:27 - Pyramid removed: Mock for Pyramid, hashCode: 124376339
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1723498053
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1893736577
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 164757726
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1360332263
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:35 - Query executed. Found 1 pyramids.
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1970528559
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 557342904
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 1269339945
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Mock for Pyramid, hashCode: 394424498
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: Comparator$$Lambda$299/0x0000007001073bb0
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 3
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 8
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 9
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 10
+2025-06-07 20:19:56 INFO  FileReaderUtility:21 - Successfully read 3 lines from /var/folders/77/sbwsly2x2bb57hjjnfg_s3d00000gp/T/pyramid12654081546122576251.txt
+2025-06-07 20:19:56 INFO  PointParserImpl:53 - Parsed 3 valid points out of 3 lines (0 skipped)
+2025-06-07 20:19:56 ERROR PyramidFacade:54 - Invalid number of points: 3, should be a multiple of 4
+2025-06-07 20:19:56 ERROR PyramidFacade:67 - File parsing error: Invalid number of points: 3
+com.esdc.shape.exception.FileParsingException: Invalid number of points: 3
+	at com.esdc.shape.facade.PyramidFacade.loadPyramidsFromFile(PyramidFacade.java:55) ~[classes/:?]
+	at com.esdc.shape.facade.PyramidFacadeTest.lambda$loadPyramidsFromFile_invalidPoints_throwsException$0(PyramidFacadeTest.java:46) ~[test-classes/:?]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53) ~[junit-jupiter-api-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35) ~[junit-jupiter-api-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111) ~[junit-jupiter-api-5.10.0.jar:5.10.0]
+	at com.esdc.shape.facade.PyramidFacadeTest.loadPyramidsFromFile_invalidPoints_throwsException(PyramidFacadeTest.java:46) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.0.jar:1.10.0]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.0.jar:5.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63) [junit-platform-launcher-1.10.0.jar:1.10.0]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+2025-06-07 20:19:56 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 11
+2025-06-07 20:19:56 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:19:56 INFO  PyramidValidator:32 - Pyramid 11 is valid.
+2025-06-07 20:19:56 INFO  ValidPyramidState:13 - Pyramid 11 is valid. Proceeding to update warehouse.
+2025-06-07 20:19:56 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 11
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=11, apex=Point(x=0,00, y=0,00, z=1,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,00, y=1,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:19:56 INFO  PyramidFacade:38 - Pyramid ID 11 added to repository
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 1
+2025-06-07 20:19:56 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 12
+2025-06-07 20:19:56 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:19:56 INFO  PyramidValidator:32 - Pyramid 12 is valid.
+2025-06-07 20:19:56 INFO  ValidPyramidState:13 - Pyramid 12 is valid. Proceeding to update warehouse.
+2025-06-07 20:19:56 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 12
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=12, apex=Point(x=0,00, y=0,00, z=2,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=2,00, y=0,00, z=0,00), Point(x=0,00, y=2,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:19:56 INFO  PyramidFacade:38 - Pyramid ID 12 added to repository
+2025-06-07 20:19:56 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 13
+2025-06-07 20:19:56 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:19:56 INFO  PyramidValidator:32 - Pyramid 13 is valid.
+2025-06-07 20:19:56 INFO  ValidPyramidState:13 - Pyramid 13 is valid. Proceeding to update warehouse.
+2025-06-07 20:19:56 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 13
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=13, apex=Point(x=0,00, y=0,00, z=1,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,00, y=1,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:19:56 INFO  PyramidFacade:38 - Pyramid ID 13 added to repository
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: VolumeComparator
+2025-06-07 20:19:56 INFO  PyramidRepositoryImpl:35 - Query executed. Found 1 pyramids.
+2025-06-07 20:19:56 ERROR ApexValidator:16 - Base must have at least 3 points. Provided: 2
+2025-06-07 20:19:56 ERROR ApexValidator:16 - Base must have at least 3 points. Provided: 0
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 14
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 15
+2025-06-07 20:19:56 WARN  BaseValidator:34 - Point Point(x=0,00, y=0,00, z=1,00) is not in the base plane
+2025-06-07 20:19:56 ERROR BaseValidator:16 - Invalid base: less than 3 points provided
+2025-06-07 20:19:56 ERROR BaseValidator:16 - Invalid base: less than 3 points provided
+2025-06-07 20:19:56 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 16
+2025-06-07 20:19:56 INFO  WarehouseObserver:16 - Observer triggered update for Pyramid 17
+2025-06-07 20:20:03 INFO  FileReaderUtility:21 - Successfully read 73 lines from src/main/resources/points.txt
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 1 - Valid triangle base
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 1: # Pyramid 1 - Valid triangle base
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 6
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 2 - Valid rectangle base
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 7: # Pyramid 2 - Valid rectangle base
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 12
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 13: # Pyramid 3 - Valid irregular quadrilateral
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 18
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 4 - Valid pentagon base
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 19: # Pyramid 4 - Valid pentagon base
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 26
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 27: # Pyramid 5 - Invalid: only 2 base points
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 31
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 6 - Invalid: malformed line
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 32: # Pyramid 6 - Invalid: malformed line
+2025-06-07 20:20:03 WARN  PointFormatValidator:26 - Invalid coordinate value (not a double): abc
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 33: abc,1.0,2.0
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 37
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 7 - Valid triangle base
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 38: # Pyramid 7 - Valid triangle base
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 43
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 8 - Valid square base
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 44: # Pyramid 8 - Valid square base
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 50
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 51: # Pyramid 9 - Invalid: too few coordinates
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 2: 8.0,8.0
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 53: 8.0,8.0
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 56
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 10 - Valid triangle base
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 57: # Pyramid 10 - Valid triangle base
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 62
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 63: # Pyramid 11 - Duplicate of pyramid 1
+2025-06-07 20:20:03 WARN  PointParserImpl:24 - Skipping empty or null line at 68
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: # Extra invalid lines
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 69: # Extra invalid lines
+2025-06-07 20:20:03 WARN  PointFormatValidator:26 - Invalid coordinate value (not a double): abc
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 70: abc,1.0,2.0
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 2: 1.0,2.0
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 71: 1.0,2.0
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 4: 1.0,2.0,3.0,4.0
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 72: 1.0,2.0,3.0,4.0
+2025-06-07 20:20:03 WARN  PointFormatValidator:18 - Invalid point format: expected 3 coordinates, got 1: 1.0 2.0 3.0
+2025-06-07 20:20:03 WARN  PointParserImpl:30 - Skipping invalid format on line 73: 1.0 2.0 3.0
+2025-06-07 20:20:03 INFO  PointParserImpl:53 - Parsed 44 valid points out of 73 lines (29 skipped)
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 1
+2025-06-07 20:20:03 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:20:03 INFO  PyramidValidator:32 - Pyramid 1 is valid.
+2025-06-07 20:20:03 INFO  ValidPyramidState:13 - Pyramid 1 is valid. Proceeding to update warehouse.
+2025-06-07 20:20:03 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 1
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=1, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:20:03 INFO  PyramidFacade:38 - Pyramid ID 1 added to repository
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 2
+2025-06-07 20:20:03 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:20:03 INFO  PyramidValidator:32 - Pyramid 2 is valid.
+2025-06-07 20:20:03 INFO  ValidPyramidState:13 - Pyramid 2 is valid. Proceeding to update warehouse.
+2025-06-07 20:20:03 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 2
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=2, apex=Point(x=1,00, y=1,00, z=4,00), base=[Point(x=1,00, y=1,00, z=0,00), Point(x=3,00, y=1,00, z=0,00), Point(x=3,00, y=2,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:20:03 INFO  PyramidFacade:38 - Pyramid ID 2 added to repository
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 3
+2025-06-07 20:20:03 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:20:03 INFO  PyramidValidator:32 - Pyramid 3 is valid.
+2025-06-07 20:20:03 INFO  ValidPyramidState:13 - Pyramid 3 is valid. Proceeding to update warehouse.
+2025-06-07 20:20:03 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 3
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=3, apex=Point(x=2,00, y=2,00, z=3,00), base=[Point(x=2,00, y=2,00, z=0,00), Point(x=2,50, y=2,20, z=0,00), Point(x=2,30, y=2,80, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:20:03 INFO  PyramidFacade:38 - Pyramid ID 3 added to repository
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 4
+2025-06-07 20:20:03 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:20:03 INFO  PyramidValidator:32 - Pyramid 4 is valid.
+2025-06-07 20:20:03 INFO  ValidPyramidState:13 - Pyramid 4 is valid. Proceeding to update warehouse.
+2025-06-07 20:20:03 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 4
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=4, apex=Point(x=4,00, y=4,00, z=6,00), base=[Point(x=4,00, y=4,00, z=0,00), Point(x=4,50, y=4,10, z=0,00), Point(x=4,70, y=4,40, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:20:03 INFO  PyramidFacade:38 - Pyramid ID 4 added to repository
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 5
+2025-06-07 20:20:03 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:20:03 INFO  PyramidValidator:32 - Pyramid 5 is valid.
+2025-06-07 20:20:03 INFO  ValidPyramidState:13 - Pyramid 5 is valid. Proceeding to update warehouse.
+2025-06-07 20:20:03 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 5
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=5, apex=Point(x=4,30, y=4,60, z=0,00), base=[Point(x=3,90, y=4,30, z=0,00), Point(x=5,00, y=5,00, z=5,00), Point(x=5,00, y=5,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:20:03 INFO  PyramidFacade:38 - Pyramid ID 5 added to repository
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 6
+2025-06-07 20:20:03 WARN  PyramidValidator:26 - Apex is coplanar with the base.
+2025-06-07 20:20:03 WARN  InvalidPyramidState:12 - Pyramid 6 is invalid. No further processing.
+2025-06-07 20:20:03 WARN  PyramidFacade:40 - Pyramid ID 6 is invalid and was not added to repository
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 7
+2025-06-07 20:20:03 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:20:03 INFO  PyramidValidator:32 - Pyramid 7 is valid.
+2025-06-07 20:20:03 INFO  ValidPyramidState:13 - Pyramid 7 is valid. Proceeding to update warehouse.
+2025-06-07 20:20:03 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 7
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=7, apex=Point(x=6,00, y=6,00, z=3,00), base=[Point(x=6,00, y=6,00, z=0,00), Point(x=7,00, y=6,00, z=0,00), Point(x=6,50, y=6,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:20:03 INFO  PyramidFacade:38 - Pyramid ID 7 added to repository
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 8
+2025-06-07 20:20:03 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:20:03 INFO  PyramidValidator:32 - Pyramid 8 is valid.
+2025-06-07 20:20:03 INFO  ValidPyramidState:13 - Pyramid 8 is valid. Proceeding to update warehouse.
+2025-06-07 20:20:03 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 8
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=8, apex=Point(x=7,00, y=7,00, z=5,00), base=[Point(x=7,00, y=7,00, z=0,00), Point(x=8,00, y=7,00, z=0,00), Point(x=8,00, y=8,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:20:03 INFO  PyramidFacade:38 - Pyramid ID 8 added to repository
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 9
+2025-06-07 20:20:03 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:20:03 INFO  PyramidValidator:32 - Pyramid 9 is valid.
+2025-06-07 20:20:03 INFO  ValidPyramidState:13 - Pyramid 9 is valid. Proceeding to update warehouse.
+2025-06-07 20:20:03 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 9
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=9, apex=Point(x=7,00, y=8,00, z=0,00), base=[Point(x=8,00, y=8,00, z=6,00), Point(x=9,00, y=8,00, z=0,00), Point(x=9,00, y=9,00, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:20:03 INFO  PyramidFacade:38 - Pyramid ID 9 added to repository
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 10
+2025-06-07 20:20:03 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:20:03 INFO  PyramidValidator:32 - Pyramid 10 is valid.
+2025-06-07 20:20:03 INFO  ValidPyramidState:13 - Pyramid 10 is valid. Proceeding to update warehouse.
+2025-06-07 20:20:03 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 10
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=10, apex=Point(x=9,00, y=9,00, z=7,00), base=[Point(x=9,00, y=9,00, z=0,00), Point(x=10,00, y=9,00, z=0,00), Point(x=9,50, y=9,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:20:03 INFO  PyramidFacade:38 - Pyramid ID 10 added to repository
+2025-06-07 20:20:03 INFO  PyramidFactoryImpl:27 - Pyramid created with ID: 11
+2025-06-07 20:20:03 INFO  BaseValidator:39 - All base points are coplanar
+2025-06-07 20:20:03 INFO  PyramidValidator:32 - Pyramid 11 is valid.
+2025-06-07 20:20:03 INFO  ValidPyramidState:13 - Pyramid 11 is valid. Proceeding to update warehouse.
+2025-06-07 20:20:03 INFO  ValidPyramidState:15 - Warehouse updated for Pyramid 11
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:21 - Pyramid added: Pyramid{pyramidId=11, apex=Point(x=0,00, y=0,00, z=5,00), base=[Point(x=0,00, y=0,00, z=0,00), Point(x=1,00, y=0,00, z=0,00), Point(x=0,50, y=0,87, z=0,00)], type=UNKNOWN, state=ValidPyramidState}
+2025-06-07 20:20:03 INFO  PyramidFacade:38 - Pyramid ID 11 added to repository
+2025-06-07 20:20:03 INFO  PyramidFacade:64 - Successfully loaded pyramids from file: src/main/resources/points.txt
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:50 - Retrieving all pyramids. Total: 10
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: VolumeComparator
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: AreaComparator
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: HeightComparator
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: IdComparator
+2025-06-07 20:20:03 INFO  PyramidRepositoryImpl:44 - Pyramids sorted using comparator: TypeComparator

@@ -1,16 +1,10 @@
 package com.esdc.shape.entity;
 
 public class Point  extends AbstractPoint {
-    private  double x;
-    private  double y;
-    private  double z;
+    private final double x;
+    private final double y;
+    private final double z;
 
-    /**
-     * Constructor for Point that automatically generates an ID.
-     * @param x The x-coordinate.
-     * @param y The y-coordinate.
-     * @param z The z-coordinate.
-     */
     public Point(double x, double y, double z) {
         this.x = x;
         this.y = y;
@@ -32,8 +26,7 @@ public class Point  extends AbstractPoint {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Point)) return false;
-        Point point = (Point) o;
+        if (!(o instanceof Point point)) return false;
         return Double.compare(point.x, x) == 0 &&
                 Double.compare(point.y, y) == 0 &&
                 Double.compare(point.z, z) == 0;

@@ -16,7 +16,6 @@ abstract class BaseComparatorTest {
         Warehouse.getInstance().clearPropertiesMap();
     }
 
-    // apexZ ― высота вершины; side ― длина стороны равностороннего треугольника-основания.
     Pyramid build(double side, double apexZ) {
         Point apex = new Point(0, 0, apexZ);
         List<Point> base = List.of(
@@ -24,10 +23,10 @@ abstract class BaseComparatorTest {
                 new Point(side, 0, 0),
                 new Point(side / 2, side * Math.sqrt(3) / 2, 0)
         );
-        Pyramid p = new Pyramid(apex, base);          // напрямую, фабрика тут не нужна
+        Pyramid p = new Pyramid(apex, base);
         p.setType(PyramidType.TRIANGLE);
         p.addObserver(new WarehouseObserver());
-        p.setBase(base);                               // триггер notifyObservers()
+        p.setBase(base);
         return p;
     }
 }

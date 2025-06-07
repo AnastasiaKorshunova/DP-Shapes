@@ -77,8 +77,7 @@ public class Pyramid extends AbstractShape {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Pyramid)) return false;
-        Pyramid pyramid = (Pyramid) o;
+        if (!(o instanceof Pyramid pyramid)) return false;
         return Objects.equals(apex, pyramid.apex) &&
                 Objects.equals(base, pyramid.base) &&
                 type == pyramid.type;

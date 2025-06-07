@@ -10,6 +10,6 @@ public class TypeComparator implements Comparator<Pyramid> {
     public int compare(Pyramid p1, Pyramid p2) {
         PyramidType t1 = p1.getType();
         PyramidType t2 = p2.getType();
-        return t1.name().compareTo(t2.name()); // алфавитный порядок
+        return t1.name().compareTo(t2.name());
     }
 }
